@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1560343944">
+  <File Type="PWROPT-DRC" Name="Alarme_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Alarme_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Alarme_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Alarme_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="Alarme.tcl"/>
+  <File Type="OPT-HWDEF" Name="Alarme.hwdef"/>
+  <File Type="RDI-RDI" Name="Alarme.vdi"/>
+  <File Type="OPT-DCP" Name="Alarme_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Alarme_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Alarme_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Alarme_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Alarme_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Alarme_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Alarme_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Alarme_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Alarme_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Alarme_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Alarme_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Alarme_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Alarme_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Alarme_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Alarme_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Alarme_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Alarme_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Alarme_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Alarme_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Alarme_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Alarme_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Alarme_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Alarme_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Alarme_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Alarme.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="Alarme_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="Alarme.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Alarme_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="Alarme.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Alarme_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Alarme.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Alarme_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Alarme_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Alarme_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Alarme_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Alarme_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Alarme_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Alarme_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Alarme_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Alarme_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Alarme_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Alarme_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Alarme_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Alarme_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Alarme_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Alarme_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Alarme.bit"/>
+  <File Type="BITSTR-RBT" Name="Alarme.rbt"/>
+  <File Type="BITSTR-NKY" Name="Alarme.nky"/>
+  <File Type="BITSTR-BMM" Name="Alarme_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Alarme.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Alarme.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Tick_1ms.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Lecture_code.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Assemble_Code.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Verif_Code.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Cmpt0to3.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX4x4v1x4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Disp1Digit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Disp1of4Digits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Disp4D.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Digicode.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gestionAlarme.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Timer_30s.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Alarme.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LongTick.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Lecture_Code_Disp.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Alarme"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Digicode_Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/Lecture_Code_Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/Alarme_Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

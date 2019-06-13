@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/zenif/Documents/TP/Projet 1A/Projet 1A.srcs/sources_1/new/Assemble_Code.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Assemble_code
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/zenif/Documents/TP/Projet 1A/Projet 1A.srcs/sim_1/new/Assemble_Code_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Assemble_Code_tb

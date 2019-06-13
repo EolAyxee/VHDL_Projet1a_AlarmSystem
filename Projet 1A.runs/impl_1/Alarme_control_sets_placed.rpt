@@ -1,0 +1,75 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Wed Jun 12 14:54:17 2019
+| Host         : LAPTOP-1OKO4PIR running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Alarme_control_sets_placed.rpt
+| Design       : Alarme
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    33 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              12 |            7 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              61 |           16 |
+| Yes          | No                    | No                     |              16 |            7 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              62 |           17 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+------------------------------------+------------------------------------------------+------------------+----------------+
+|            Clock Signal            |            Enable Signal           |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++------------------------------------+------------------------------------+------------------------------------------------+------------------+----------------+
+|  Digicode/Assemble_Code/Code_Bon_s |                                    |                                                |                1 |              1 |
+|  clk_IBUF_BUFG                     | Digicode/Assemble_Code/p_5_out[3]  |                                                |                2 |              4 |
+|  clk_IBUF_BUFG                     | Digicode/Assemble_Code/p_5_out[7]  |                                                |                1 |              4 |
+|  clk_IBUF_BUFG                     | Digicode/Assemble_Code/p_5_out[11] |                                                |                2 |              4 |
+|  clk_IBUF_BUFG                     | Digicode/Assemble_Code/p_5_out[15] |                                                |                2 |              4 |
+|  clk_IBUF_BUFG                     |                                    |                                                |                6 |             11 |
+|  clk_IBUF_BUFG                     |                                    | Digicode/Lecture_Code/Tick_100us/Q[13]_i_1_n_0 |                4 |             13 |
+|  clk_IBUF_BUFG                     |                                    | Digicode/Disp4D/Timer/Q_reg[1]_0               |                4 |             16 |
+|  clk_IBUF_BUFG                     | GestionAlarme/E[0]                 | GestionAlarme/SR[0]                            |               12 |             30 |
+|  clk_IBUF_BUFG                     |                                    | Digicode/Assemble_Code/inactivC[0]_i_1_n_0     |                8 |             32 |
+|  clk_IBUF_BUFG                     | Digicode/Assemble_Code/waitC_0     | Digicode/Assemble_Code/waitC0                  |                5 |             32 |
++------------------------------------+------------------------------------+------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 4      |                     4 |
+| 11     |                     1 |
+| 13     |                     1 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+
